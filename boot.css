@@ -1,0 +1,424 @@
+body {
+    font-family: "work sans", sans-serif;
+    overflow-x: hidden !important;
+}
+
+.primary_color {
+    background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg');
+    height: 90px;
+}
+
+.navbar-brand {
+    color: brown;
+
+}
+
+.nav-link {
+    color: rgb(238, 234, 234);
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #ffc800 !important;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+}
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+    text-align: center;
+    color: white;
+}
+
+.hero-content h3 {
+
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+
+.hero-content h1 {
+
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 40px;
+
+}
+
+.service-icons {
+    height: 45px;
+    width: 45px;
+    background-color: #ffc800;
+    border-radius: 50px;
+    margin-top: -10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cartimg {
+    size: 20px;
+    width: 25px;
+}
+
+.card {
+    width: 18rem;
+
+
+}
+
+.text1 {
+    margin-top: -40px;
+    font-family: "Luxurious Roman";
+}
+
+.text-muted {
+    max-width: 330px;
+
+}
+
+.card1 {
+    margin-left: 170px;
+}
+
+.portfolio-cards {
+    border-radius: 40px;
+    row-gap: 100px;
+    margin: 200px;
+    margin-top: 50px;
+}
+
+.card-img-top {
+    border: none;
+
+
+}
+
+.card-img-top:hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 200, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity;
+
+}
+
+.card-text {
+    font-family: "Luxurious Roman";
+}
+
+.text-muted {
+    font-family: "Luxurious Roman";
+}
+
+.abtext {
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 100px;
+    width: 500px;
+    align-content: end;
+
+
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+    margin-left: 500px;
+    margin-top: -200px;
+    border-color: solid 5px rgb(0, 0, 0);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+.aboutcard2 {
+    margin-left: 750px;
+    margin-top: 30px;
+    height: 100px;
+    width: 500px;
+    align-content: end;
+
+}
+
+.middleline {
+    height: 1150px;
+    width: 1px;
+    background-color: #e6e0e0;
+    margin-left: 600px;
+    margin-top: -10px;
+}
+
+.Teamcard1 {
+    border-radius: 50%;
+    display: flex;
+    height: 270px;
+    width: 27 0px;
+    margin-left: 40px;
+}
+
+.img-brand {
+    height: 2.75rem;
+}
+
+.emailbar {
+    margin-top: -120px;
+
+}
+
+
+#exampleInputemail1 {
+    width: 545px;
+}
+
+#exampleInputnumber1 {
+    width: 545px;
+}
+
+.btn2 {
+    background-color: rgba(255, 200, 0, 0.9);
+    align-items: center;
+    border-color: rgba(255, 200, 0, 0.9);
+    color: white
+}
+
+
+
+.contactbg {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+    background-color: #212529;
+    /* Dark background like the original */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+
+}
+
+#contact h2,
+#contact p {
+    color: white;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+
+}
+
+
+
+
+/* =========================
+   RESPONSIVE CSS
+========================= */
+
+/* Laptop */
+@media (max-width: 992px) {
+
+    .logo {
+        width: 150px;
+        height: auto;
+    }
+
+    .hero-content h1 {
+        font-size: 50px;
+    }
+
+    .hero-content h3 {
+        font-size: 30px;
+    }
+
+    .card1 {
+        margin-left: 0;
+    }
+
+    .portfolio-cards {
+        margin: 30px;
+    }
+
+    .abtext,
+    .aboutcard2 {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        height: auto;
+    }
+
+    .rounded-circle {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .middleline {
+        display: none;
+    }
+
+    .Teamcard1 {
+        width: 220px;
+        height: 220px;
+        margin: auto;
+    }
+
+    .emailbar {
+        margin-top: 0;
+    }
+
+    #exampleInputemail1,
+    #exampleInputnumber1 {
+        width: 100%;
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    .primary_color {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .logo {
+        width: 120px;
+        height: auto;
+    }
+
+    .hero {
+        height: auto;
+        padding: 120px 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-content h3 {
+        font-size: 22px;
+    }
+
+    .card,
+    .pfcard1,
+    .pfcard2,
+    .pfcard3 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-cards {
+        margin: 15px;
+        row-gap: 30px;
+    }
+
+    .abtext,
+    .aboutcard2 {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        height: auto;
+    }
+
+    .rounded-circle {
+        width: 180px;
+        height: 180px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .middleline {
+        display: none;
+    }
+
+    .Teamcard1 {
+        width: 180px;
+        height: 180px;
+        margin: auto;
+    }
+
+    .emailbar {
+        margin-top: 0;
+    }
+
+    #exampleInputemail1,
+    #exampleInputnumber1 {
+        width: 100%;
+    }
+
+    .contactbg {
+        height: auto;
+        padding: 60px 20px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 576px) {
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .hero-content h3 {
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .service-icons {
+        width: 60px;
+        height: 60px;
+    }
+
+    .portfolio-cards {
+        margin: 10px;
+    }
+
+    .Teamcard1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .rounded-circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .btn2 {
+        width: 100%;
+    }
+}
